@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Vinayaka chavithi</title>
+    <style>
+    
+        *{
+            height: inherit;
+            width: inherit;
+            border-radius: inherit;
+            transition: all 2s linear 1s;
+        }
+        .container:hover>img{
+            transform: scale(1.5);
+        }
+         .left-door,.right-door{
+            background-color: gold;
+            height: inherit;
+            border: 2px solid black;
+            transition: all 2s linear 1s;
+         }
+         .left-door
+         {
+            width: 50%;
+            top: 0px;
+            position: absolute;
+            
+          
+         }
+         .container:hover>.left-door
+         {
+              transform: translateX(-300px);
+         }
+         .container:hover>.right-door
+         {
+              transform: translateX(300px);
+         }
+          .right-door
+         {
+            width: 50%;
+            top: 0px;
+            right: 0px;
+            position: absolute;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <img src="https://images.news18.com/ibnlive/uploads/2022/01/ganesh.jpg?impolicy=website&width=0&height=0" alt="">
+         <div></div>
+        </div>
+</body>
+</html>

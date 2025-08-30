@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <style>
+        .loginbut {
+            position: relative;
+            display: inline-block;
+        }
+
+        .loginhover {
+            display: none;
+            position: absolute;
+            background: #fff;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .loginhover a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .loginhover a:hover {
+            background: #f1f1f1;
+        }
+
+        .loginbut:hover .loginhover {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="loginbut"><button>Login
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
+            </svg>
+        </button>
+        <div class="loginhover">
+            <a href="">Signup</a>
+            <a href="">My Profile</a>
+            <a href="">Fakecart Dimond Zone</a>
+            <a href="">Orders</a>
+            <a href="">WishList</a>
+            <a href="">Rewards</a>
+            <a href="">Gift Cards</a>
+        </div>
+    </div>
+</body>
+
+</html>
